@@ -11,7 +11,7 @@
 (( EUID )) && echo .You need to have root priviliges.. && exit 1
 PIDF=/usr/local/addons/ccu.io/ccu.io.pid
 NODECMD=/usr/local/bin/node
-CCUIOCMD=/usr/local/addons/ccu.io/ccu.io-server.js
+CCUIOCMD=/opt/ccu.io/ccu.io-server.js
 RETVAL=0
 CCUIOUSER=pi
 
